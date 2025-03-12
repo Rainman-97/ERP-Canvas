@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ERP ACADEMICO ADMINISTRATIVO/CSS/InicioSesion.css">
+    <title>Registro de Usuarios</title>
+</head>
+<body>
+    <header>
+        <div class="container_nav">
+            <img src="./Educatine_Logo.webp" alt="Educatine_Logo" srcset="">
+            <h1>ERP ACADEMICO-ADMINISTRATIVO</h1>
+        </div>
+    </header>
+    <main>
+        
+        <div class="container_rol_select">
+            <form action="rol_select.js" method="post">
+                <label for="opciones">Selecciona tu rol:</label>
+                <select id="opciones" name="opcion">
+                    <option value="opcion1">Administrador</option>
+                    <option value="opcion2">Docente</option>
+                    <option value="opcion3">Estudiante</option>
+                </select>
+                
+                <br><br>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+    </main>
+</body>
+</html>
